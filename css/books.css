@@ -1,0 +1,30 @@
+body {
+   background: linear-gradient(-60deg, #d55523, #d59d23, #d5ba23, #b7d523, #97d523,#23d558,#23d594);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+.heading{
+  height: 150px;
+  background: linear-gradient(-60deg, #d55523, #d59d23, #d5ba23, #b7d523, #97d523,#23d558,#23d594 );
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+}
+
+
+.headingtext{
+  font-size: 5rem;
+  font-family: 'Bungee Shade', cursive;
+}
